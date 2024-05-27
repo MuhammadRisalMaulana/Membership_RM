@@ -1,0 +1,47 @@
+body {
+    background-image: url('./Food.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+h1 {
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+input[type="number"] {
+    width: 50px;
+    margin-right: 10px;
+}
+#label1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#label2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#pelanggan {
+    align-content : center;
+}
+#total {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
